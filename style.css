@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+}
+
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -6,7 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(76, 182, 177);
+    background-image: linear-gradient( rgb(76, 182, 177), black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
